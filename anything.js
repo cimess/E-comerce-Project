@@ -11,3 +11,4 @@ router.get('/data', checkPermission('viewData'), (req, res) => {
 });
 
 module.exports = router;
+
